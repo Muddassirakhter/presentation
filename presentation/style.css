@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bl;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.slide {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .slide {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slide {
+        max-width: 100%;
+    }
+}

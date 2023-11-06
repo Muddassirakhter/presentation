@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Website</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* Add CSS styles for this specific page (if necessary) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fcefef;
+            color: #1b1919;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        .slide {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            max-width: 800px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Presentation</h1>
+    </header>
+    <main>
+        <section class="slide">
+            <h2>In this presentation, we discuss some topics:</h2>
+            <ul>
+                <li>get time and get time ()</li>
+                <li>Local time setting</li>
+                <li>Two-dimensional array</li>
+            </ul>
+        </section>
+
+        <section class="slide">
+            <h2>"GET TIME"</h2>
+            <p>In JavaScript, there is a distinction between "getTime" and "getTime()" when working with date and time-related operations. "getTime" without parentheses is a property of the Date object. It returns the numeric value representing the current date and time in milliseconds. It's a simple getter, and you access it like this: <code>const timestamp = new Date().getTime();</code>.</p>
+        </section>
+
+        <section class="slide">
+            <h2>GET TIME()</h2>
+            <p>On the other hand, "getTime()" with parentheses is a method of the Date object that returns the same Unix timestamp in milliseconds. This method doesn't require any arguments and is called as a function, like this: <code>const timestamp = new Date().getTime();</code>. So, the difference is that "getTime" is a property, while "getTime()" is a method, but both serve the same purpose of obtaining the current time.</p>
+            <img src="./Screenshot 2023-11-05 184729.png" alt="Screenshot">
+        </section>
+
+        <section class="slide">
+            <h2>LOCAL TIME SETTING</h2>
+            <p>In JavaScript, setting the local time involves working with the Date object and configuring it to reflect the desired time zone. You can achieve this by using methods like <code>toLocaleString()</code> or by explicitly setting the time zone offset. Here's an example:</p>
+            <img src="./Screenshot 2023-11-05 184913.png" alt="Screenshot">
+        </section>
+
+        <section class="slide">
+            <h2>TWO-DIMENSIONAL ARRAY</h2>
+            <p>In JavaScript, a two-dimensional array is a nested array, where each element of the outer array is itself an array. This structure allows you to represent a grid of data. Here's a simple explanation in JavaScript:
+
+                A two-dimensional array in JavaScript is an array of arrays. It allows you to store and manipulate data in a grid or table-like format. Each element in the outer array represents a row, and the elements within each row (inner arrays) represent columns. This structure is useful for organizing data that has both row and column relationships, such as a chessboard, spreadsheet, or a matrix of values. To access a specific element, you use two indices: one for the row and another for the column, like `myArray[rowIndex][colIndex]`..</p>
+            <img src="./OIP.jpg" alt="Image" width="860" height="400">
+        </section>
+    </main>
+</body>
+</html>
