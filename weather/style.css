@@ -1,0 +1,46 @@
+
+  
+  #P{
+    display: flex;
+position: relative;left: 600px;
+text-align: center;
+box-shadow: 0 0 30px;
+    
+}
+#search{
+display: flex;
+
+box-shadow: 0 0 30px;
+}
+#submit{
+    
+    border-radius: 20px;  
+}
+#head{
+    
+font-family: 'Times New Roman', Times, serif;
+background-color: beige;
+border-radius: 30px;
+
+/* margin-bottom: 40px; */
+margin-top: -9px;
+padding-bottom: 5px;
+position: relative;
+text-align: center;
+}
+#body{
+background-color: #E9967A;
+
+}
+@media (max-width: 768px) {
+    .slide {
+      max-width: 90%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .slide {
+      max-width: 100%;
+    }
+  }
+  
