@@ -15,8 +15,8 @@ async function getWeather(event) {
         console.log(response.data);
  document.querySelector("#p").innerText = 
  
- `city name : ${ response.data.name }
- weather: ${response.data.main.temp} °C 
+ `City Name : ${ response.data.name }
+ Weather: ${response.data.main.temp} °C 
  Min Temperature:${ response.data.main.temp_min}
  Max Temperature:${ response.data.main.temp_max}
  `

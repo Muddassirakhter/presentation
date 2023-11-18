@@ -1,4 +1,4 @@
-
+/* 
   
   #P{
     display: flex;
@@ -23,7 +23,7 @@ background-color: beige;
 border-radius: 30px;
 
 /* margin-bottom: 40px; */
-margin-top: -9px;
+/* margin-top: -9px;
 padding-bottom: 5px;
 position: relative;
 text-align: center;
@@ -43,4 +43,73 @@ background-color: #E9967A;
       max-width: 100%;
     }
   }
-  
+   */ 
+
+   /* Reset some default styles and add a basic style */
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#head {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+#submit {
+    background-color: #131614;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#submit:hover {
+    background-color: #599ac5;
+}
+
+#p {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    #head {
+        font-size: 80%;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+}
